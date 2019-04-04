@@ -12,7 +12,9 @@
         android:layout_width = "match_parent"
         android:layout_height = "80dp"
         android:gravity = "end"
-        android:maxLines = "1"
+        android:ellipsize = "start"
+        android:singleLine = "true"
+        android:textSize = "40sp"
         android:textColor = "@color/numberButtons" />
 
     <TextView
@@ -20,7 +22,9 @@
         android:layout_width = "match_parent"
         android:layout_height = "100dp"
         android:gravity = "end"
-        android:maxLines = "1"
+        android:ellipsize = "end"
+        android:singleLine = "true"
+        android:textSize = "30sp"
         android:textColor = "@color/numberButtons" />
 
     <LinearLayout
@@ -148,7 +152,7 @@
                 android:text = "." />
 
             <TextView
-                android:id = "@+id/tvZero"
+                android:id = "@+id/tv0"
                 style = "@style/NumberButtonStyle"
                 android:text = "0" />
 

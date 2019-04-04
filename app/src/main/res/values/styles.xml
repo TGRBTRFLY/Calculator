@@ -12,7 +12,8 @@
         <item name = "android:layout_height" >match_parent</item >
         <item name = "android:layout_weight" >1</item >
         <item name = "android:background" >@color/actionButtons</item >
-        <item name = "android:textSize" >21sp</item >
+        <item name = "android:textSize" >25sp</item >
+        <item name = "android:textStyle" >bold</item >
         <item name = "android:gravity" >center</item >
         <item name = "android:textColor" >@android:color/white</item >
         <item name = "android:layout_margin" >0.5dp</item >
@@ -23,7 +24,8 @@
         <item name = "android:layout_height" >match_parent</item >
         <item name = "android:layout_weight" >1</item >
         <item name = "android:background" >@color/numberButtons</item >
-        <item name = "android:textSize" >21sp</item >
+        <item name = "android:textSize" >25sp</item >
+        <item name = "android:textStyle" >bold</item >
         <item name = "android:gravity" >center</item >
         <item name = "android:textColor" >@android:color/white</item >
         <item name = "android:layout_margin" >0.5dp</item >
